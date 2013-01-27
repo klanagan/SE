@@ -4,16 +4,80 @@
         <meta name="format-detection" content="telephone=no" />
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
 		<link rel="stylesheet" href="css/jquery.mobile-1.2.0.min.css" />
+		<script type="text/javascript" src="phonegap.js"></script>	
+		<script src="js/jquery-1.8.2.min.js"></script>
+		<script src="js/jquery.mobile-1.2.0.min.js"></script>
+		
         <title>SYNTHESE ELEVAGE</title>
     </head>
     <body>
         <div class="app">
-            <h1>SYNTHESE ELEVAGE</h1>
-        </div>
-        <script type="text/javascript" src="phonegap.js"></script>	
-		<script src="js/jquery-1.8.2.min.js"></script>
-		<script src="js/jquery.mobile-1.2.0.min.js"></script>
-		
-       
+			<div data-role="page" id="home">
+				<div data-role="header">
+					<h1>L'Entreprise</h1>
+				</div><!-- /header -->
+				<div data-role="content" >	
+					<div class="ui-grid-b">
+						<div class="ui-block-a"></div>
+						<div class="ui-block-b"><img src="res/image/logoSE.jpg"/></div>
+						<div class="ui-block-b"></div>	
+					</div>
+					<h4>Synthèse Elevage est une entreprise spécialisée dans le domaine du nutritionnel, de l'hygiène et de l'insémination articfielle pour les élevages. Elle offre donc un large panel de produits (et une échelle de conditionnements répondant autant aux besoins des petites structures qu'aux grandes (conditionnement jusqu'à 1000 L selon les produits).<br><br>
+					
+					Organisme de formation reconnu, Synthèse Elevage est également agréé pour la formation continue et son programme de formation est reconnu par le FAFSEA.<br><br>
+					
+					Toujours à la recherche d'innovations en France et à l'étranger, Synthèse Elevage (certifié ISO 9001) développe et sélectionne une gamme de produits parfaitement adaptés aux réels besoins du terrain.<br><br>
+					
+					Fondateur historique des RIPP (Rencontres Internationales de la Production Porcine) qui accueille tous les 2 ans éleveurs, techniciens et vétérinaires, Synthèse Elevage met un point d'honneur à l'échange de savoir et de connaissances pour apporter des solutions concrètes aux problèmes rencontrés sur le terrain.</h4>
+					<div class="ui-grid-a">
+						<div class="ui-block-a"><img src="res/image/iso9001.jpg"></div>
+						<div class="ui-block-b"> Depuis 2004, Synthèse Elevage est certifié ISO 9001.</div>	   
+					</div>
+				</div><!-- /content -->				
+				<div data-role="footer" data-position="fixed">		
+					<div data-role="navbar">
+						<ul>
+							<li><a href="#home" data-icon="home" data-iconpos="right">L'Entreprise</a></li>
+							<li><a href="#catalogue" data-icon="grid" data-iconpos="right">La Boutique</a></li>
+							<li><a href="#about"data-icon="info" data-iconpos="right">Contact</a></li>
+						</ul>
+					</div><!-- /navbar -->
+				</div><!-- /footer -->
+			</div>
+			<div data-role="page" id="catalogue">
+				<div data-role="header">
+					<h1>La Boutique</h1>
+				</div><!-- /header -->
+				<div data-role="content" >	
+					<h2>page 2</h2>
+				</div><!-- /content -->				
+				<div data-role="footer" data-position="fixed">		
+					<div data-role="navbar">
+						<ul>
+							<li><a href="#home" data-icon="home" data-iconpos="right">L'Entreprise</a></li>
+							<li><a href="#catalogue" data-icon="grid" data-iconpos="right">La Boutique</a></li>
+							<li><a href="#about"data-icon="info" data-iconpos="right">Contact</a></li>
+						</ul>
+					</div><!-- /navbar -->
+				</div><!-- /footer -->
+			</div>
+			<div data-role="page" id="about">
+				<div data-role="header">
+					<h1>Contact</h1>
+				</div><!-- /header -->
+				<div data-role="content" >	
+					<h2>page 3</h2>
+				</div><!-- /content -->				
+				<div data-role="footer" data-position="fixed">		
+					<div data-role="navbar">
+						<ul>
+							<li><a href="#home" data-icon="home" data-iconpos="right">L'Entreprise</a></li>
+							<li><a href="#catalogue" data-icon="grid" data-iconpos="right">La Boutique</a></li>
+							<li><a href="#about"data-icon="info" data-iconpos="right">Contact</a></li>
+						</ul>
+					</div><!-- /navbar -->
+				</div><!-- /footer -->
+			</div>
+		</div>     
     </body>
 </html>
