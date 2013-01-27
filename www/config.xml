@@ -3,14 +3,14 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.phonegap.hello-world"
         version   = "2.2.0">
-    <name>Synthèse élevage</name>
+    <name>Synthese elevage</name>
 
     <description>
-        Conception et développement de solutions innovantes en hygiène, nutritionnel, et insémination animale
+        Conception et developpement de solutions innovantes en hygiene, nutritionnel, et insemination animale
     </description>
 
     <author href="http://www.syntheseelevage.com/" email="v.barteau@chene-vert.com">
-        Société GCV
+        Societe GCV
     </author>
 
     <feature name="http://api.phonegap.com/1.0/device" />
